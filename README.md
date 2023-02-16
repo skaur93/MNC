@@ -1,2 +1,2 @@
 # MNC Accounting
- Accounting webiste
+ Accounting webiste using javascript, react, css.
