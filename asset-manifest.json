@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MNC/static/css/main.0396c0a0.css",
+    "main.js": "/MNC/static/js/main.ae41cda1.js",
+    "static/js/787.51c7c2ad.chunk.js": "/MNC/static/js/787.51c7c2ad.chunk.js",
+    "static/media/reason2.jpg": "/MNC/static/media/reason2.c212d14079322916b082.jpg",
+    "static/media/coins.jpg": "/MNC/static/media/coins.608b04f51fe9fdfd308c.jpg",
+    "static/media/main.png": "/MNC/static/media/main.a3f686259b5786b92415.png",
+    "static/media/logo.png": "/MNC/static/media/logo.f7389fd6a3ea2c8d9484.png",
+    "static/media/pot1.png": "/MNC/static/media/pot1.87f4af903556ec442803.png",
+    "static/media/taj.jpg": "/MNC/static/media/taj.cf502caccd406a692f73.jpg",
+    "static/media/taj-pic.jpg": "/MNC/static/media/taj-pic.8d7c700e51438b49a802.jpg",
+    "static/media/sma.jpg": "/MNC/static/media/sma.99905fc83b8aa7f34b89.jpg",
+    "static/media/financial.svg": "/MNC/static/media/financial.10e6ab8d3a57ade9fbd28a20acd24eac.svg",
+    "index.html": "/MNC/index.html",
+    "static/media/right.svg": "/MNC/static/media/right.e25724c91df6c92a6c7f057e32ff375a.svg",
+    "static/media/left.svg": "/MNC/static/media/left.47abe9af5a03b9b83a221064dd8cf300.svg",
+    "main.0396c0a0.css.map": "/MNC/static/css/main.0396c0a0.css.map",
+    "main.ae41cda1.js.map": "/MNC/static/js/main.ae41cda1.js.map",
+    "787.51c7c2ad.chunk.js.map": "/MNC/static/js/787.51c7c2ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0396c0a0.css",
+    "static/js/main.ae41cda1.js"
+  ]
+}
