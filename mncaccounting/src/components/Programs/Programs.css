@@ -18,7 +18,8 @@
 
 .program-categories {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
+    margin-left: 15rem;
 }
 
 .category>img, .contact-us>img {

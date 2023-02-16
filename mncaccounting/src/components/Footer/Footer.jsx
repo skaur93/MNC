@@ -15,7 +15,9 @@ const Footer = () => {
                 <img src={linkedin} alt="" />
             </div>     
         </div>
-        <div>Designed by Icons by <a href="https://icons8.com/">icons8</a></div>
+        <div className="blur blur-footer-1"></div>
+        <div className="blur blur-footer-2"></div>
+        <div className='footer-info'> <span>Designed by Sandeep</span>  <span>Icons by <a href="https://icons8.com/">icons8</a></span></div>
     </div>
   )
 }

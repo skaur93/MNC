@@ -15,7 +15,7 @@
 .right-h {
     flex: 1;
     position: relative;
-   /* background-color: var(--orange);*/
+   background-color: var(--orange);
 }
 
 .the-best-acc {
@@ -62,7 +62,7 @@
     text-transform: none;
     font-weight: 200;
     letter-spacing: 1px;
-    width: 80%;
+    width: 70%;
 }
 
 .hero-buttons {
@@ -93,8 +93,55 @@
 
 .hero-img {
     position: absolute;
-    top: 1rem;
-    right: -24rem;
+    top: 2rem;
+    right: -11rem;
     width: 68rem;
     height: 40rem;
 }
+
+.blur-hero {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+
+.annoucement {
+    align-items: start;
+    background-color: var(--darkGrey);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    position: absolute;
+    right: 3rem;
+    top: 17rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: var(--darkGrey);
+    animation:  slide-in  4000ms;
+    animation-iteration-count: infinite;
+  
+   
+}
+
+.annoucement>:nth-child(2) {
+    color: var(--gray);
+}
+
+.annoucement>:nth-child(3) {
+    color: white;
+    font-size: 1.5rem;
+}
+
+@keyframes slide-in {
+    from {
+      transform: translateX(100%);
+      opacity: 0.25;
+    }
+    to {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }

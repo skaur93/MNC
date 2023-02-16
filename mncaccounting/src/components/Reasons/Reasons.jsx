@@ -1,7 +1,7 @@
 import React from 'react'
 import './Reasons.css'
 import coins from '../../assets/img/coins.jpg'
-import money from '../../assets/img/money.jpg'
+import reason2 from '../../assets/img/reason2.jpg'
 import sma from '../../assets/img/sma.jpg'
 import main from '../../assets/img/main.png'
 import arrow from '../../assets/img/tick.png'
@@ -11,12 +11,12 @@ const Reasons = () => {
     <div className="reasons" id="reasons">
         <div className="left-r">
             <img src={coins} alt="" />
-            <img src={money} alt="" />
+            <img src={reason2} alt="" />
             <img src={sma} alt="" />
             <img src={main} alt="" />
         </div>
         <div className="right-r">
-            <span>some reasons</span>
+            {/* <span>some reasons</span> */}
 
             <div>
                 <span className='stroke-text'>why </span>
@@ -40,7 +40,14 @@ const Reasons = () => {
                     <img src={arrow} alt=""></img>
                     <span>Personal and corporate tax returns</span>
                 </div>
-                
+                <div>
+                    <img src={arrow} alt=""></img>
+                    <span>Personal and corporate tax returns</span>
+                </div>
+                <div>
+                    <img src={arrow} alt=""></img>
+                    <span>Personal and corporate tax returns</span>
+                </div>
             </div>
         </div>
     </div>
