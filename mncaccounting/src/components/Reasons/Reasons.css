@@ -30,14 +30,14 @@
 }
 
 .left-r>:nth-child(3) {
-    width: 14rem;
+    width: 12rem;
     grid-row: 2;
     grid-column: 2/3;
     height: 13.5rem;
 }
 
 .left-r>:nth-child(4) {
-    width: 10rem;
+    width: 12.5rem;
     grid-row: 2;
     grid-column: 3/4;
     height: 13.5rem;

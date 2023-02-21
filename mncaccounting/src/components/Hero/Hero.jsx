@@ -43,7 +43,7 @@ export default function Hero() {
         <button className="btn">Contact us now</button>
         <motion.div  className="annoucement">
           <img src={tax} alt="" />
-          <span>Tax season 2023 dealine is 30 April. </span>
+          <span>Tax season 2023 deadline is 30 April. </span>
           <span>Contact us now!</span>
         </motion.div>
 

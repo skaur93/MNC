@@ -1,6 +1,7 @@
 .hero {
     display: flex;
     justify-content: space-between;
+    background-image: url(../../assets/img/bg.jpg);
 }
 
 .left-h {
