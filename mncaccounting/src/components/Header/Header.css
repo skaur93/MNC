@@ -1,4 +1,4 @@
-.header {
+header {
     display: flex;
     justify-content: space-between;
 }
@@ -6,6 +6,8 @@
 .logo-header {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+    margin-left: 24px;
 }
 
 .logo-header>:nth-child(1) {
@@ -36,9 +38,29 @@
 
 .header-menu>li {
     cursor: pointer;
+    font-weight: 700;
 }
 
 .header-menu>li:hover {
     cursor: pointer;
     color: var(--orange);
+}
+
+header {
+    background-color: #2d2e2e;
+    height: 10vh;
+    line-height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo>img {
+    height: 25px;
+}
+
+header a {
+    margin-left: 40px;
 }

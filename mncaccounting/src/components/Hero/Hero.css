@@ -1,12 +1,11 @@
 .hero {
     display: flex;
     justify-content: space-between;
-    background-image: url(../../assets/img/bg.jpg);
 }
 
 .left-h {
     padding: 2rem;
-    padding-top: 1.5rem;
+    padding-top: 4.5rem;
     flex: 3;
     display: flex;
     gap: 2rem;
@@ -16,12 +15,11 @@
 .right-h {
     flex: 1;
     position: relative;
-   background-color: var(--orange);
+    background-color: var(--orange);
 }
 
 .the-best-acc {
-    margin-top: 2rem;
-    background-color: grey;
+    background-color: #3a2b3f;
     border-radius: 4rem;
     width: fit-content;
     padding: 20px 13px;
@@ -31,6 +29,9 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 .the-best-acc>span {
@@ -40,7 +41,7 @@
 .the-best-acc>div {
     position: absolute;
     background-color: var(--orange);
-    width: 4.5rem;
+    width: 11.5rem;
     height: 80%;
     left: 8px;
     border-radius: 3rem;
@@ -56,14 +57,18 @@
     font-weight: bold;
     color: white;
     text-overflow: inherit;
+    text-align: center;
+    margin: auto;
 }
 
 .hero-text>div:nth-of-type(3) {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: none;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1px;
     width: 70%;
+    text-align: center;
+    margin: auto;
 }
 
 .hero-buttons {
@@ -89,7 +94,7 @@
     position: absolute;
     right: 3rem;
     top: 2rem;
-    color:black;
+    color: black;
 }
 
 .hero-img {
@@ -121,10 +126,10 @@
     width: -moz-fit-content;
     width: fit-content;
     background-color: var(--darkGrey);
-    animation:  slide-in  4000ms;
+    animation: slide-in 4000ms;
     animation-iteration-count: infinite;
-  
-   
+
+
 }
 
 .annoucement>:nth-child(2) {
@@ -138,11 +143,26 @@
 
 @keyframes slide-in {
     from {
-      transform: translateX(100%);
-      opacity: 0.25;
+        transform: translateX(100%);
+        opacity: 0.25;
     }
+
     to {
-      transform: translateX(0%);
-      opacity: 1;
+        transform: translateX(0%);
+        opacity: 1;
     }
-  }
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../../assets/img/bgg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.1;
+}

@@ -7,39 +7,42 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
 
-  const transiton = {type: 'spring', ease: 'linear',  delay: 0.5,repeat: Infinity, duration: 0.8, };
+  const transiton = { type: 'spring', ease: 'linear', delay: 0.5, repeat: Infinity, duration: 0.8, };
   return (
     <div className='hero'>
-      <div className="blur blur-hero"></div>
       <div className="left-h">
         <Header></Header>
         <div className="the-best-acc">
-            <motion.div 
-            initial={{left: '238px'}}
-            whileInView={{left: '8px'}}
-            transiton={{...transiton, type: 'tween'}}>
-            </motion.div>
-            <span>The best accounting firm in the town</span>
+          <motion.div
+            initial={{ left: '238px' }}
+            whileInView={{ left: '8px' }}
+            transiton={{ ...transiton, type: 'tween' }}>
+          </motion.div>
+          <span>The best and trusted accounting firm in the Lower Mainland.</span>
         </div>
 
-        <div className="hero-text">
-            <div><span className='stroke-text'>Making </span><span>Accounting</span></div>
-            <div><span>More Wise</span></div>
-            <div>
-                <span>We are specialized in accounting, tax planning, reconciling bank statements and making accurate financial records.
-                Our commitment to our clients extends beyond the numbers. We are dedicated to building long-term relationships based on mutual respect, trust, and a shared commitment to financial success.
-                We believe that our clients' success is our success, which is why we are committed to delivering the highest level of service and expertise to help them achieve their financial goals.
-                </span>
-            </div>
+        <div className="hero-text" data-aos='fade-up-right'>
+          <div><span className='stroke-text'>Making </span><span>Accounting</span></div>
+          <div><span>More Wise</span></div>
+          <div>
+            <span>We are specialized in accounting, tax planning, reconciling bank statements and making accurate financial records.
+              Our commitment to our clients extends beyond the numbers. We are dedicated to building long-term relationships based on mutual respect, trust, and a shared commitment to financial success.
+              We believe that our clients' success is our success, which is why we are committed to delivering the highest level of service and expertise to help them achieve their financial goals.
+            </span>
+            <div style={{ marginTop: '1rem' }}></div>
+            <span>We would like to inform you that our location is in Surrey. As such, we kindly request that you contact us via phone before making any plans to visit our premises.
+              We are available to answer any questions or concerns you may have and will be happy to assist you in any way we can. We appreciate your cooperation and look forward to hearing from you soon.</span>
+          </div>
+
         </div>
 
         {/* Hero buttons */}
-        <div className="hero-buttons">
+        {/* <div className="hero-buttons">
           <button className="btn">Get started</button>
           <button className="btn">Learn more</button>
-        </div>
+        </div> */}
       </div>
-      <div className="right-h">
+      {/* <div className="right-h">
         <button className="btn">Contact us now</button>
         <motion.div  className="annoucement">
           <img src={tax} alt="" />
@@ -50,7 +53,7 @@ export default function Hero() {
 
         <img src={coin} alt="" className="hero-img" />
         <img src="" alt="" className="hero-img-back" />
-      </div>
-    </div>
+      </div> */}
+    </div >
   )
 }

@@ -2,6 +2,7 @@
     display: flex;
     gap: 1rem;
     padding: 0 2rem;
+    margin-top: 4rem;
 }
 
 .left-t {
@@ -19,12 +20,12 @@
 }
 
 .left-t>:nth-child(2),
-.left-t>:nth-child(3)  {
+.left-t>:nth-child(3) {
     font-size: 3rem;
     font-weight: bold;
 }
 
-.left-t>:nth-child(4)  {
+.left-t>:nth-child(4) {
     text-transform: none;
     text-align: justify;
     letter-spacing: 2px;
@@ -69,7 +70,7 @@
     gap: 1rem;
     position: absolute;
     bottom: 1rem;
-    left: 3rem; 
+    left: 3rem;
 }
 
 .arrows>img {

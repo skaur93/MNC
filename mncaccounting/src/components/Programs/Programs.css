@@ -14,26 +14,49 @@
     color: white;
     text-transform: uppercase;
     font-style: italic;
+    margin-top: 1rem;
 }
+
+.programs-main-header>:nth-child(1) {
+    color: var(--orange);
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+    display: flex;
+}
+
+.programs-main-header>:nth-child(2) {
+    font-weight: 400;
+    font-size: 1.5rem;
+    justify-content: center;
+    color: white;
+    text-transform: lowercase;
+    display: flex;
+}
+
 
 .program-categories {
     display: flex;
     gap: 2rem;
-    margin-left: 15rem;
+    justify-content: center;
 }
 
-.category>img, .contact-us>img {
+.category>img,
+.contact-us>img {
     width: 30px;
 }
 
 .category {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: #3a2b3f;
     padding: 2rem;
     gap: 1rem;
     color: white;
-    width: 15rem; 
+    width: 15rem;
     justify-content: space-between;
 }
 

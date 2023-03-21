@@ -5,8 +5,8 @@
   --orange: #b68d2b;
   --darkGrey: #464D53;
   --caloryCard: #656565;
-  --planCard: linear-gradient(210.41deg, #fae142 1.14%, #ffa739 100.75%);
-  --appColor:  #3c3f45;
+  --planCard: linear-gradient(210.41deg, #c5bf7a 1.14%, #d6831a 100.75%);
+  --appColor: #3c3f45;
 }
 
 .App {
@@ -17,10 +17,14 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
-  background-image: url(assets/img/bg.jpg);
+
 }
 
-::-webkit-scrollbar{
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
   display: none;
 }
 
