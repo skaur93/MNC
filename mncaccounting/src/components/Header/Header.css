@@ -34,6 +34,9 @@ header {
     display: flex;
     gap: 2rem;
     color: white;
+    position: relative;
+    right: 8%;
+    bottom: 20%;
 }
 
 .header-menu>li {
@@ -41,7 +44,7 @@ header {
     font-weight: 700;
 }
 
-.header-menu>li:hover {
+.header-menu>li>a:hover {
     cursor: pointer;
     color: var(--orange);
 }
@@ -62,5 +65,11 @@ header {
 }
 
 header a {
-    margin-left: 40px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa-icon {
+    padding: 5px;
 }

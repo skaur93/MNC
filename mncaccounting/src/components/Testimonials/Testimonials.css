@@ -1,8 +1,20 @@
 .testimonials {
     display: flex;
     gap: 1rem;
-    padding: 0 2rem;
     margin-top: 4rem;
+}
+
+.testimonials::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/img/five.jpg");
+    opacity: 0.5;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    width: 100%;
+    height: 80vh;
+    opacity: 0.1;
 }
 
 .left-t {
@@ -10,27 +22,26 @@
     flex: 1 1;
     gap: 2rem;
     flex-direction: column;
-    text-transform: uppercase;
     color: white;
+    margin-top: 3%;
 }
 
 .left-t>:nth-child(1) {
-    color: var(--orange);
-    font-weight: bold;
-}
-
-.left-t>:nth-child(2),
-.left-t>:nth-child(3) {
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
 }
 
-.left-t>:nth-child(4) {
+/* .left-t>:nth-child(2),
+.left-t>:nth-child(3) {
     text-transform: none;
     text-align: justify;
     letter-spacing: 2px;
     line-height: 40px;
-}
+    text-align: center;
+    font-size: 1rem;
+} */
+
 
 .right-t {
     position: relative;
@@ -68,12 +79,34 @@
 .arrows {
     display: flex;
     gap: 1rem;
-    position: absolute;
-    bottom: 1rem;
-    left: 3rem;
+    margin: auto;
 }
 
 .arrows>img {
     width: 1.5rem;
     cursor: pointer;
+}
+
+.customerName {
+    color: var(--orange);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.corousel-content {
+    text-align: center;
+}
+
+.corousel-content>div:nth-child(1) {
+    margin-top: 1%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.corousel-content>div:nth-child(2) {
+    color: var(--orange);
+    margin-top: 2%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
 }

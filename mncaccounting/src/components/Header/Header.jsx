@@ -12,9 +12,9 @@ export default function Header() {
         <span>Accounting CPA Inc.</span>
       </div>
       <ul className='header-menu' data-aos='zoom-in-left'>
-        <Link to="/">Welcome</Link>
-        <Link to="about">About Us</Link>
-        <Link to="contact">Contact</Link>
+        <li><Link to="/"><i class="fa-solid fa-house fa-icon"></i>Welcome</Link></li>
+        <li><Link to="/about"><i class="fa-solid fa-user fa-icon"></i>About Us</Link></li>
+        <li><Link to="/contact"><i class="fa-solid fa-address-book fa-icon"></i>Contact</Link></li>
       </ul>
     </header>
   )
