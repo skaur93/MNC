@@ -11,10 +11,12 @@ function About() {
 
                 <div className="aboutus">
                     <h1>About Us</h1>
-                    <div data-aos="flip-left">MNC Accounting CPA Inc. is an accounting form providing top-quality accounting support to businesses and
+                    <div data-aos="flip-left">MNC Accounting CPA Inc. is an accounting firm providing top-quality accounting support to businesses and
                         individuals. This includes accounting, tax and business consultancy services to individuals, self-employed,
-                        owned managed small to medium size businesses.We are committed to providing attention to each client’s needs
-                        to tailor unique solution to their business needs.We provide assistance in English,
+                        owned managed small to medium size businesses.At MNC, we understand that every business has unique financial needs, and we are
+                        committed to working closely with our clients to provide customized solutions that meet their specific requirements.
+                        Whether you need help with bookkeeping, tax planning, financial analysis, or other accounting services, we are here to help you succeed.
+                        We provide assistance in English,
                         Hindi, Urdu and Punjabi.</div>
                     <div data-aos="zoom-in-left">Meet Manny</div>
                     <div data-aos="zoom-in-right">Owner, Chartered Professional Accountant</div>

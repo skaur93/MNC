@@ -46,3 +46,16 @@
     margin: 0;
     border-radius: 10px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+
+    .contact {
+        flex-direction: column;
+        position: relative;
+        top: -7rem;
+    }
+
+
+}

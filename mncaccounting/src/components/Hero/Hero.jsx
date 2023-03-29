@@ -30,30 +30,16 @@ export default function Hero() {
               We believe that our clients' success is our success, which is why we are committed to delivering the highest level of service and expertise to help them achieve their financial goals.
             </span>
             <div style={{ marginTop: '1rem' }}></div>
-            <span>We would like to inform you that our location is in Surrey. As such, we kindly request that you contact us via phone before making any plans to visit our premises.
-              We are available to answer any questions or concerns you may have and will be happy to assist you in any way we can. We appreciate your cooperation and look forward to hearing from you soon.</span>
+            {/* <span>We would like to inform you that our location is in Surrey. As such, we kindly request that you contact us via phone before making any plans to visit our premises.
+              We are available to answer any questions or concerns you may have and will be happy to assist you in any way we can. We appreciate your cooperation and look forward to hearing from you soon.</span> */}
           </div>
 
         </div>
 
-        {/* Hero buttons */}
-        {/* <div className="hero-buttons">
-          <button className="btn">Get started</button>
-          <button className="btn">Learn more</button>
-        </div> */}
+
+
       </div>
-      {/* <div className="right-h">
-        <button className="btn">Contact us now</button>
-        <motion.div  className="annoucement">
-          <img src={tax} alt="" />
-          <span>Tax season 2023 deadline is 30 April. </span>
-          <span>Contact us now!</span>
-        </motion.div>
 
-
-        <img src={coin} alt="" className="hero-img" />
-        <img src="" alt="" className="hero-img-back" />
-      </div> */}
     </div >
   )
 }

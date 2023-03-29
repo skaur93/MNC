@@ -11,6 +11,8 @@ import { useEffect } from 'react';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
 import Home from './components/Home/Home';
+import ScrollToTop from "./components/ScrollToTop";
+
 import {
   BrowserRouter,
   Routes,
@@ -27,11 +29,13 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        <ScrollToTop>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </ScrollToTop>
       </BrowserRouter>
     </div>
   );

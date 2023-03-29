@@ -1,11 +1,12 @@
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 .left-h {
-    padding: 2rem;
-    padding-top: 4.5rem;
     flex: 3;
     display: flex;
     gap: 2rem;
@@ -31,7 +32,8 @@
     justify-content: flex-start;
     text-align: center;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 8rem;
+    letter-spacing: 2px;
 }
 
 .the-best-acc>span {
@@ -59,16 +61,19 @@
     text-overflow: inherit;
     text-align: center;
     margin: auto;
+    position: absolute;
+    top: 34%;
 }
 
 .hero-text>div:nth-of-type(3) {
     font-size: 1.2rem;
     text-transform: none;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     width: 70%;
     text-align: center;
     margin: auto;
+    font-family: auto;
 }
 
 .hero-buttons {
@@ -163,6 +168,87 @@
     background-attachment: fixed;
     z-index: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     opacity: 0.1;
+    /* vertical-align: middle; */
+    background-position: center center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+
+    .the-best-acc {
+        margin-top: 5rem;
+        font-size: small;
+        align-self: center;
+        transform: scale(0.8);
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-header {
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-text {
+        font-size: xx-large;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text>div:nth-of-type(3) {
+        font-size: large;
+        text-align: center;
+        font-weight: 200;
+        letter-spacing: 1px;
+    }
+
+    .programs-main-header>:nth-child(1) {
+        font-size: xx-large;
+        align-items: center;
+        text-align: center;
+    }
+
+    .programs-main-header>:nth-child(2) {
+        font-size: large;
+        align-items: center;
+        text-align: center;
+    }
+
+    .programs-header {
+        align-items: center;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    .program-categories {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .category>:nth-child(1) {
+        margin: auto;
+    }
+
+    .category {
+        width: auto;
+    }
+
+    .hero::after {
+        background-position: top center;
+        background-size: 100vw 200vh;
+        background-repeat: no-repeat;
+    }
+
+    .hero-text {
+        top: 22%;
+    }
+
 }

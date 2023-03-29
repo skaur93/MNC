@@ -50,8 +50,7 @@ function Item(props) {
     <div className='corousel-content'>
       <div>{props.item.content}</div>
       <div>{props.item.name}</div>
-
-
+      <div>{props.item.location}</div>
     </div>
   )
 }

@@ -14,9 +14,12 @@ const Footer = () => {
           <img src={facebook} alt="" />
           <img src={linkedin} alt="" />
         </div>
+        <div className='footer-info'>
+          <span>Designed by Sandeep</span>
+        </div>
       </div>
 
-      <div className='footer-info'> <span>Designed by Sandeep</span></div>
+
     </div>
   )
 }
