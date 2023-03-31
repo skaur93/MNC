@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 2rem;
     padding: 0 2rem;
+    margin-bottom: 2rem;
 }
 
 .programs-header {
@@ -25,6 +26,7 @@
     justify-content: center;
     text-transform: uppercase;
     font-style: italic;
+    margin-top: 2rem;
     display: flex;
 }
 
@@ -33,8 +35,8 @@
     font-size: 1.5rem;
     justify-content: center;
     color: white;
-    text-transform: lowercase;
     display: flex;
+    font-family: auto;
 }
 
 
@@ -56,7 +58,7 @@
     padding: 2rem;
     gap: 1rem;
     color: white;
-    width: 15rem;
+    width: 18rem;
     justify-content: space-between;
 }
 
@@ -89,4 +91,12 @@
 .category:hover {
     background: var(--planCard);
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .programs-header>span {
+        font-size: xx-large;
+        align-items: center;
+        text-align: center;
+    }
 }

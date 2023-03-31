@@ -210,13 +210,13 @@
     }
 
     .programs-main-header>:nth-child(1) {
-        font-size: xx-large;
+        font-size: x-large !important;
         align-items: center;
         text-align: center;
     }
 
     .programs-main-header>:nth-child(2) {
-        font-size: large;
+        font-size: large !important;
         align-items: center;
         text-align: center;
     }

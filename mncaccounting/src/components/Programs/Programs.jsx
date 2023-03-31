@@ -7,7 +7,7 @@ function Programs() {
         <div className="Programs" id="programs" data-aos='fade-down-up'>
             <div className='programs-main-header' >
                 <span data-aos='fade-down-left'>Looking for top-notch accounting services in town?</span>
-                <span data-aos='fade-down-right'>Look no further than our award-winning accounting firm - consistently recognized for excellence in the industry.</span>
+                <span data-aos='fade-down-right'>Look no further than our amazing accounting firm - consistently recognized for excellence in the industry.</span>
             </div>
             <div className="programs-header" >
                 <span className='stroke-text' data-aos='fade-down'>Explore Our Services</span>

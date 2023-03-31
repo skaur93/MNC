@@ -1,36 +1,39 @@
 .testimonials {
     display: flex;
     gap: 1rem;
-    margin-top: 4rem;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
 }
 
 .testimonials::after {
     content: "";
     position: absolute;
     /* background-image: url("../../assets/img/five.jpg"); */
-    opacity: 0.5;
     background-size: cover;
     background-attachment: fixed;
     z-index: 0;
     width: 100%;
-    height: 56vh;
+    height: inherit;
     opacity: 0.1;
+    left: 0;
     background-color: aquamarine;
 }
 
 .left-t {
     display: flex;
-    flex: 1 1;
     gap: 2rem;
     flex-direction: column;
     color: white;
-    margin-top: 3%;
+    margin-bottom: 2rem;
 }
 
-.left-t>:nth-child(1) {
+.testimonials>:nth-child(1) {
+    color: white;
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
+    margin-top: 2rem;
 }
 
 /* .left-t>:nth-child(2),
@@ -43,50 +46,6 @@
     font-size: 1rem;
 } */
 
-
-.right-t {
-    position: relative;
-    flex: 1;
-}
-
-.right-t>img {
-    position: absolute;
-    width: 17rem;
-    height: 20rem;
-    object-fit: cover;
-    right: 8rem;
-    top: 2rem;
-}
-
-.right-t>:nth-child(1) {
-    position: absolute;
-    width: 17rem;
-    height: 20rem;
-    border: 2px solid orange;
-    background-color: transparent;
-    right: 9rem;
-    top: 0.9rem;
-}
-
-.right-t>:nth-child(2) {
-    position: absolute;
-    width: 17rem;
-    height: 19rem;
-    top: 2rem;
-    right: 7rem;
-    background: var(--planCard);
-}
-
-.arrows {
-    display: flex;
-    gap: 1rem;
-    margin: auto;
-}
-
-.arrows>img {
-    width: 1.5rem;
-    cursor: pointer;
-}
 
 .customerName {
     color: var(--orange);
@@ -118,4 +77,12 @@
 .corousel-content>div:nth-child(3) {
     margin-top: 1%;
     margin-bottom: 2%;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials>:nth-child(1) {
+        font-size: xx-large;
+        align-items: center;
+        text-align: center;
+    }
 }

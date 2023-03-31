@@ -19,27 +19,17 @@ function Testimonials() {
   };
   return (
     <div className='testimonials'>
+      <div>
+        <span className='stroke-text'>What customers </span>
+        <span>say about us</span>
+      </div>
       <div className="left-t">
-        <div>
-          <span className='stroke-text'>What customers </span>
-          <span>say about us</span>
-        </div>
-        {/* <Corousel>
-          <span>{testimonialsData[selected].content}</span>
-          <span>
-            <span className='customerName'>{testimonialsData[selected].name}</span>
-          </span>
-        </Corousel> */}
-
         <Carousel>
           {
             testimonialsData.map((item, i) => <Item key={i} item={item} />)
           }
         </Carousel>
-        {/* <div className="arrows">
-          <img onClick={() => { selected === 0 ? setSelecetd(length - 1) : setSelecetd((prev) => prev - 1) }} src={leftArrow} alt="" />
-          <img onClick={() => { selected === length - 1 ? setSelecetd(0) : setSelecetd((prev) => prev + 1) }} src={rightArrow} alt="" />
-        </div> */}
+
       </div>
     </div>
   )

@@ -10,9 +10,9 @@ function Contact() {
         <>
             <Header></Header>
             <div className='contact' id='contact' >
-                <video autoPlay muted loop id="myVideo" className="video-container">
+                {/* <video autoPlay muted loop id="myVideo" className="video-container">
                     <source src={contact} type="video/mp4" />
-                </video>
+                </video> */}
                 <div className="video-banner" data-aos='flip-left'>
                     <div>We are located in Surrey, British columbia,</div>
                     <div>At 5926, 124st, V3X1X5</div>
