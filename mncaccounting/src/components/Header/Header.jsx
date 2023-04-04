@@ -22,10 +22,12 @@ export default function Header() {
             <span><i class="fa-solid fa-bars" style={{ color: 'white' }}></i></span>
           </div>
         ) : (
-          <div className='list-menu'>
-            <li><Link onClick={() => setMenuOpened(false)} to="/"><i class="fa-solid fa-house fa-icon"></i>Welcome</Link></li>
-            <li><Link onClick={() => setMenuOpened(false)} to="/about"><i class="fa-solid fa-user fa-icon"></i>About Us</Link></li>
-            <li><Link onClick={() => setMenuOpened(false)} to="/contact"><i class="fa-solid fa-address-book fa-icon"></i>Contact Us</Link></li>
+          <div className='list-menu navbar-nav ml-auto'>
+            <ul>
+              <li><Link onClick={() => setMenuOpened(false)} to="/"><i class="fa-solid fa-house fa-icon"></i>Welcome</Link></li>
+              <li><Link onClick={() => setMenuOpened(false)} to="/about"><i class="fa-solid fa-user fa-icon"></i>About Us</Link></li>
+              <li><Link onClick={() => setMenuOpened(false)} to="/contact"><i class="fa-solid fa-address-book fa-icon"></i>Contact Us</Link></li>
+            </ul>
           </div>
         )
       }

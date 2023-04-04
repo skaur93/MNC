@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #3a2b3f;
-    height: 10vh;
     line-height: 5vh;
 }
 
@@ -27,6 +26,7 @@
     font-size: 1rem;
     color: var(--orange);
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 .logo {
@@ -47,23 +47,34 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
+    vertical-align: middle;
 }
 
-.list-menu>li {
+.list-menu>ul>li {
     cursor: pointer;
     font-weight: 700;
     letter-spacing: 2px;
 }
 
-.list-menu>li>a {
+.list-menu>ul>li>a {
     color: white;
 }
 
-.list-menu>li>a:hover {
+.list-menu>ul>li>a:hover {
     cursor: pointer;
     color: var(--orange);
     text-decoration: none;
 }
+
+.list-menu>ul {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
 
 /* header {
     background-color: #2d2e2e;
@@ -111,16 +122,24 @@ header a {
 @media screen and (max-width: 768px) {
     .header-menu>:nth-child(2) {
         position: fixed;
-        right: 1rem;
         z-index: 99;
-        background: var(--appColor);
+        box-shadow: 0 1px 10px #999;
         gap: 2rem;
-        width: 50%;
         margin: auto;
         text-align: center;
     }
 
     .list-menu {
         flex-direction: column;
+    }
+
+    .list-menu>ul {
+        flex-direction: column;
+        width: 25rem;
+        background: var(--appColor);
+    }
+
+    .logo-header {
+        margin-left: 13%;
     }
 }
